@@ -19,6 +19,7 @@ header{
     margin-bottom: 3px;
     display: flex;
     cursor: grab;
+    padding-left: 10px;
 }
 .box{
     background-color:#D2E3C8;
@@ -30,7 +31,8 @@ header{
 }
 .droppableContainer{
     display: flex;
-    margin-top: 100px;
+    margin-top: 80px;
+    padding-left: 10px;
 }
 .droppable{
     background-color: #EBF3E8;
