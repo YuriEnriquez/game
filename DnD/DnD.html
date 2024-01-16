@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="DnD.css">
+    <script src="DnD.js" defer></script>
+    <title>Drag and Drop</title>
+    <header><h1>Delicacies of the World</h1></header>
+</head>
+<body>
+    <div class="image-container">
+        <img src="dumplings.jpg" alt="drg" class="drg">
+        <img src="croissant.jpg" alt="drg" class="drg">
+        <img src="sushi.jpg" alt="drg" class="drg">
+        <img src="paella.jpg" alt="drg" class="drg">
+        <img src="biryani.jpg" alt="drg" class="drg">
+        <img src="pinapaitan.jpg" alt="drg" class="drg">
+        <img src="taco.jpg" alt="drg" class="drg">
+        <img src="carbonara.jpg" alt="drg" class="drg">
+        <img src="pecan.jpg" alt="drg" class="drg">
+        <img src="goreng.jpg" alt="drg" class="drg">
+    </div>
+    <div class="names">
+        <h5 class="one">Dumplings</h5>
+        <h5 class="two">Croissant</h5>
+        <h5 class="three">Sushi</h5>
+        <h5 class="four">Paella</h5>
+        <h5 class="five">Chicken Biryani</h5>
+        <h5 class="six">Pinapaitan</h5>
+        <h5 class="seven">Taco</h5>
+        <h5 class="eight">Carbonara</h5>
+        <h5 class="nine">Pecan Pie</h5>
+        <h5 class="ten">Nasi Goreng</h5>
+    </div>
+    <div class="draggableContainer">
+        <div class="box" draggable="true" id="box1">Dumplings</div>
+        <div class="box" draggable="true" id="box2">Croissant</div>
+        <div class="box" draggable="true" id="box3">Sushi</div>
+        <div class="box" draggable="true" id="box4">Paella</div>
+        <div class="box" draggable="true" id="box5">Chicken Biryani</div>
+        <div class="box" draggable="true" id="box6">Pinapaitan</div>
+        <div class="box" draggable="true" id="box7">Taco</div>
+        <div class="box" draggable="true" id="box8">Carbonara</div>
+        <div class="box" draggable="true" id="box9">Pecan Pie</div>
+        <div class="box" draggable="true" id="box10">Nasi Goreng</div>
+    </div>
+    
+    <div class="droppableContainer">
+        <div class="droppable" data-draggable-id = "box5">India</div>
+        <div class="droppable" data-draggable-id = "box3">Japan</div>
+        <div class="droppable" data-draggable-id = "box6">Philippines</div>
+        <div class="droppable" data-draggable-id = "box2">France</div>
+        <div class="droppable" data-draggable-id = "box1">China</div>
+        <div class="droppable" data-draggable-id = "box7">Mexico</div>
+        <div class="droppable" data-draggable-id = "box10">Indonesia</div>
+        <div class="droppable" data-draggable-id = "box9">USA</div>
+        <div class="droppable" data-draggable-id = "box8">Italy</div>
+        <div class="droppable" data-draggable-id = "box4">Spain</div>
+    </div>
+    <div class="image-container">
+        <img src="india.png" alt="drp" class="drp">
+        <img src="japan.png" alt="drp" class="drp">
+        <img src="philippines.png" alt="drp" class="drp">
+        <img src="france.png" alt="drp" class="drp">
+        <img src="china.png" alt="drp" class="drp">
+        <img src="mexico.png" alt="drp" class="drp">
+        <img src="indonesia.png" alt="drp" class="drp">
+        <img src="usa.jpg" alt="drp" class="drp">
+        <img src="italy.png" alt="drp" class="drp">
+        <img src="spain.png" alt="drp" class="drp">
+    </div>
+    <div>
+        <div class="droppable"><p id="remarks"></p></div>
+        Score:<p id="scores"></p>
+    </div>
+</body>
+</html>
